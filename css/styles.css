@@ -12,6 +12,24 @@ ul li {
   list-style-type: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 /* #region Top Line */
 
 .logo-link {
@@ -57,6 +75,30 @@ ul li {
   color: #404bbf;
 }
 
+.link-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-li {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 156px;
+}
+
+.page-nav {
+  display: flex;
+  gap: 76px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 /* #endregion Top Line */
 
 /* #region Hero */
@@ -83,6 +125,13 @@ ul li {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: flex;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
 }
 
 .hero .button:hover,
@@ -90,6 +139,16 @@ ul li {
   background-color: #404bbf;
 }
 
+.hero .container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+  padding-left: 472px;
+  padding-right: 472px;
+  align-items: center;
+}
 /* #endregion Hero */
 
 /* #region Features */
