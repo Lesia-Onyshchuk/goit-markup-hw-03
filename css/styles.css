@@ -12,6 +12,8 @@ ul li {
   list-style-type: none;
 }
 
+/* #region Top Line */
+
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -55,6 +57,10 @@ ul li {
   color: #404bbf;
 }
 
+/* #endregion Top Line */
+
+/* #region Hero */
+
 .hero {
   background-color: #2e2f42;
 }
@@ -84,6 +90,10 @@ ul li {
   background-color: #404bbf;
 }
 
+/* #endregion Hero */
+
+/* #region Features */
+
 .features-list .title {
   font-weight: 500;
   font-size: 20px;
@@ -97,6 +107,10 @@ ul li {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* #endregion Features */
+
+/* #region Our Team */
 
 .team {
   background-color: #f4f4fd;
@@ -130,6 +144,10 @@ ul li {
   letter-spacing: 0.02em;
 }
 
+/* #endregion Our Team */
+
+/* #region Our Portfolio */
+
 .portfolio-title {
   text-transform: capitalize;
   font-weight: 700;
@@ -155,6 +173,10 @@ ul li {
   color: #434455;
 }
 
+/* #endregion Our Portfolio */
+
+/* #region Footer */
+
 .page-footer {
   background-color: #2e2f42;
 }
@@ -169,3 +191,5 @@ ul li {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* #endregion Footer */
