@@ -17,17 +17,20 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-}
-
+h6,
 p {
   margin: 0;
 }
 
 ul {
   margin: 0;
-  padding-left: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1158px;
 }
 
 /* #region Top Line */
@@ -75,28 +78,48 @@ ul {
   color: #404bbf;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .link-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
 .address-li {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
   gap: 40px;
 }
 
 .header .container {
   display: flex;
-  justify-content: space-between;
-  padding: 24px 156px;
+  align-items: center;
 }
 
 .page-nav {
   display: flex;
-  gap: 76px;
   align-items: center;
-  justify-content: flex-start;
+}
+
+.page-nav .logo-link {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.link-list .link {
+  padding: 24px 0;
+  display: block;
+}
+
+.address-list {
+  margin-left: auto;
+}
+
+.address-link .link {
+  padding: 24px 0;
 }
 
 /* #endregion Top Line */
