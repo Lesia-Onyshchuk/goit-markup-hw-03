@@ -133,6 +133,8 @@ ul {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero .title {
@@ -142,7 +144,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin: 68px auto 48px auto;
+  margin: 0 auto 48px auto;
   text-align: center;
   display: block;
 }
@@ -158,8 +160,11 @@ ul {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
-  margin: 0 auto 68px auto;
+  margin: 0 auto;
   display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero .button:hover,
@@ -266,8 +271,9 @@ ul {
 }
 
 .text-box {
-  margin: 32px auto;
+  padding: 32px 0;
 }
+
 /* #endregion Our Team */
 
 /* #region Our Portfolio */
@@ -310,11 +316,11 @@ ul {
   width: calc((100% - 2 * 24px) / 3);
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-box {
-  margin: 32px 0 32px 16px;
+  padding: 32px 16px;
 }
 /* #endregion Our Portfolio */
 
@@ -335,7 +341,10 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
 
+.page-footer .logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* #endregion Footer */
