@@ -242,7 +242,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-list .text {
@@ -250,8 +250,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 8px;
-  margin-bottom: 32px;
 }
 
 .team-list {
@@ -267,6 +265,9 @@ ul {
   border-radius: 0 0 4px 4px;
 }
 
+.text-box {
+  margin: 32px auto;
+}
 /* #endregion Our Team */
 
 /* #region Our Portfolio */
@@ -288,7 +289,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 32px 0 8px 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-list .text {
@@ -296,8 +297,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 
 .portfolio-list {
@@ -314,6 +313,9 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.portfolio-box {
+  margin: 32px 0 32px 16px;
+}
 /* #endregion Our Portfolio */
 
 /* #region Footer */
