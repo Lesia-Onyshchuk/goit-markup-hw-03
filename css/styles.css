@@ -131,7 +131,7 @@ ul {
 
 /* #region Hero */
 
-.hero {
+.hero.section {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -270,7 +270,7 @@ ul {
   border-radius: 0 0 4px 4px;
 }
 
-.text-box {
+.team-li .text-box {
   padding: 32px 0;
 }
 
